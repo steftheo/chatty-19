@@ -5,4 +5,4 @@ export default Model.extend({
   username: attr(),
   email: attr(),
   password: attr()
-});
+});sdfsd
