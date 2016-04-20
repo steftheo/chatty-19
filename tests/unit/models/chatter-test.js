@@ -2,7 +2,7 @@ import { moduleForModel, test } from 'ember-qunit';
 
 moduleForModel('chatter', 'Unit | Model | chatter', {
   // Specify the other units that are required for this test.
-  needs: []
+  needs: ['model:message']
 });
 
 test('it exists', function(assert) {
