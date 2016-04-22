@@ -1,8 +1,8 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('chatter', 'Unit | Model | chatter', {
+moduleForModel('message', 'Unit | Model | message', {
   // Specify the other units that are required for this test.
-  needs: ['model:message']
+  needs: ['model:chatter', 'model:room']
 });
 
 test('it exists', function(assert) {
